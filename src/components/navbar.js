@@ -15,27 +15,33 @@ export default class NavBar extends React.Component {
           <button className="navBtnToggle">toggle bar button</button>
           <ul className="navLinkList">
             <li>
-              <Link to="#" className="navLink" activeClassName="active">
+              <Link to="/about" className="navLink" activeClassName="active">
                 About
-              </Link> 
+              </Link>
             </li>
 
             <li>
-              <Link to="#" className="navLink" activeClassName="active">
+              <Link to="/movies" className="navLink" activeClassName="active">
                 Movies
-              </Link> 
+              </Link>
             </li>
 
             <li>
-              <Link to="#" className="navLink" activeClassName="active">
+              <Link to="/awards" className="navLink" activeClassName="active">
+                Awards
+              </Link>
+            </li>
+
+            <li>
+              <Link to="/gallery" className="navLink" activeClassName="active">
                 Gallery
-              </Link> 
+              </Link>
             </li>
 
             <li>
-              <Link to="#" className="navLink" activeClassName="active">
+              <Link to="about-me" className="navLink" activeClassName="active">
                 Developer Info
-              </Link> 
+              </Link>
             </li>
           </ul>
         </nav>
