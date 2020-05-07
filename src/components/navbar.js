@@ -9,7 +9,7 @@ export default class NavBar extends React.Component {
     return (
       <header className="menuHeader">
         <Link to="/" className="menuLogo">
-          <img src="/assest/logo.svg" alt="logo" title="Main-Logo" />
+          <img src="assests/logo.svg" alt="logo" title="Main-Logo" />
         </Link>
         <nav className="navLink">
           <button className="navBtnToggle">toggle bar button</button>
